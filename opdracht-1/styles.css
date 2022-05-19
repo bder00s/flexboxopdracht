@@ -3,3 +3,62 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumpurple;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+p, h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*flex-basis: 200px;*/
+    list-style: none;
+}
+
+li {
+    margin:20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+
+}
+
