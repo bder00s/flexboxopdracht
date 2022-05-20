@@ -56,9 +56,22 @@ form {
     margin: 0 200px;
 }
 
+label {
+    display: flex;
+    flex-direction: column;
+}
+
 .five {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
 
 }
+
+article {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
 
