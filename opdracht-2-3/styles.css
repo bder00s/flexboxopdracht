@@ -34,6 +34,8 @@ article {
     height: 350px;
     border-radius: 5px;
     margin: 40px;
+    padding: 10px;
+
 
 }
 
@@ -41,4 +43,27 @@ p {
     text-align: center;
     margin: 10px;
 
+
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color:#151E3F;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: nowrap;
+
+}
+
+.caps {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+span {
+    margin: 10px;
+    color: white;
+    flex-shrink: 0;
 }
