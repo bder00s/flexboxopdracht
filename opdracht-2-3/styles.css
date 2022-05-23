@@ -22,8 +22,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+    justify-content: space-around;
 
 }
 
@@ -37,6 +36,8 @@ article {
     border-radius: 5px;
     margin: 40px;
     padding: 10px;
+    overflow: auto;
+
 
 
 }
@@ -44,7 +45,8 @@ article {
 p {
     text-align: center;
     font-weight: 400;
-    border: 5px solid blue;
+
+
 
 }
 
